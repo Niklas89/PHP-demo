@@ -1,0 +1,81 @@
+
+a  {
+	outline: none;
+}
+a.email,
+a.pdf,
+a.add,
+a.modify,
+a.download,
+a.print,
+a.previous,
+a.next,
+a.back,
+a.more,
+a.delete {
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 18px;
+}
+
+a.email {
+	background-image: url('../img/email.png');
+	background-position: 0 1px;
+}
+
+a.pdf {
+	background-image: url('../img/pdf.png');
+	padding-top: 2px;
+}
+
+a.add {
+	background-image: url('../img/add.png');
+	background-position: 0 4px;
+	padding-left: 12px;
+}
+
+a.modify {
+	background-image: url('../img/pencil.png');
+}
+
+a.print {
+	background-image: url('../img/print.png');
+	background-position: 0 0;
+}
+
+a.download {
+	background-image: url('../img/download.png');
+	background-position: 0 5px;
+}
+
+a.previous{
+	background-image: url('../img/arrow-left.png');
+	background-position: 0 4px;
+}
+
+a.back {
+	background-image: url('../img/back.png');
+	background-position: 0 1px;
+}
+
+a.more {
+	background-image: url('../img/more.png');
+	background-position: 0 1px;
+}
+
+a.previous {
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+a.next {
+	background-image: url('../img/arrow-right.png');
+	background-position: right 4px;
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+a.delete {
+	background-image: url('../img/trash.png');
+	background-position: 0 -4px;
+}

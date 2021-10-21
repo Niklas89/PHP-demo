@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><?php echo APPLICATION_TITLE; ?></title>
+<link href="templates/styles/main_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="page">
+	<div id="main">
+		<div id="header">
+<?php include 'templates/_header.html'; ?>
+		</div>
+
+		<div id="content">
+Texte d'intro, optionnel ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<div>
+<h2>A propos de ce site</h2>
+<p>Ce site est une sorte de sandbox, c'est à dire un "début de site" avec un peu tout ce qu'il faut pour en faire un.</p>
+<ul>
+<li>version actuelle : <?php echo APPLICATION_VERSION; ?></li>
+</ul>
+</div>
+
+		</div><!-- end content -->
+	</div>
+	<div id="sidebar">
+		<div id="log">
+<?php include 'templates/_log.html'; ?>
+		</div>
+<?php include 'templates/_menu.html'; ?>
+	</div>
+	<div id="footer"><?php include 'templates/_footer.html'; ?></div>
+</div>
+</body>
+</html>

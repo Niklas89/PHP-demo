@@ -1,0 +1,58 @@
+
+/***************************************/
+/*	shop
+/***************************************/
+
+p.steps strong {
+	color: #cc0000;
+}
+
+/**/
+
+ul.shop_products li {
+	padding-bottom: 20px;
+}
+
+ul.shop_products li h3 {
+	margin-bottom: 5px;
+}
+
+ul.shop_products li p {
+	margin-bottom: 10px;
+}
+
+ul.shop_products li p.price {
+	margin-bottom: 5px;
+}
+
+/**/
+
+table#cart {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+table#cart tr.header,
+table#cart tr.total {
+	background-color: #eee;
+}
+
+table#cart th {
+	padding: 2px 0 2px 0;
+}
+
+table#cart th,
+table#cart td {
+	padding: 5px;
+}
+
+table#cart select.quantity {
+	width: 40px;
+}
+
+/**/
+h3.summary {
+	background-color: #eee;
+	padding: 5px;
+}
+

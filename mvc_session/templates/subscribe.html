@@ -1,0 +1,14 @@
+﻿<form action="subscribe.php" method="post" accept-charset="utf-8">
+	<div><label for="name">Name :</label><input type="text" name="name" value="" id="name"></div>
+	<div><label for="email">Email :</label><input type="text" name="email" value="" id="email"></div>
+	<div><label for="login">Login :</label><input type="text" name="login" value="" id="login"></div>
+	<div><label for="password">Password :</label><input type="password" name="pass" value="" id="pass"></div>
+	<div><label for="biographie">Votre biographie :</label><textarea name="bio" id="bio" cols="40" rows="4"></textarea></div>
+	<?php
+          
+          $publickey = "6LeT0cgSAAAAAG4NLJ1diyG1ZFSs72MNZl1QEgvE"; // you got this from the signup page
+          echo recaptcha_get_html($publickey);
+        ?>
+	<div><input type="submit" value="Essayer &rarr;"></div>
+</form>
+<p><a href="index.php">Back</a></p>

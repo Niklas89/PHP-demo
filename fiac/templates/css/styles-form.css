@@ -1,0 +1,176 @@
+
+form {
+	margin-bottom: 30px;
+	text-align: left;
+}
+
+form div {
+	margin-bottom: 10px;
+}
+
+form div label {
+	color: #666;
+	display: block;
+	margin-bottom: 2px;
+}
+
+form input,
+form textarea,
+form select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #999;
+	margin: 0;
+	padding: 2px;
+}
+
+form select option {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+form input.checkbox {
+	border: none;
+}
+
+form input.text,
+form input.small {
+	height: 16px;
+}
+
+form select,
+form select.small {
+	height: 22px;
+}
+
+form div input.text,
+form div textarea.text {
+	width: 250px;
+}
+
+form input.small {
+	width: 150px;
+}
+
+form select.small {
+	width: 155px;
+}
+
+form input.search {
+	width: 120px;
+}
+
+/*
+** error
+*/
+select.error,
+input.error {
+	border: 1px dotted #cc0000;
+}
+
+
+/*
+** submit
+*/
+form input.submit,
+form input.ok {
+	font-size: 11px;
+	cursor: pointer;
+	background-color: #cc0000;
+	border-color: #cc0000;
+	color: #fff;
+}
+
+form div.submit {
+	margin-top: 20px;
+	text-align: center;
+}
+
+form input.submit {
+	padding: 2px 10px 2px 10px;
+}
+
+form input.submit,
+form input.ok {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*
+** focus
+*/
+form div input.text:focus,
+form div textarea:focus,
+form div select:focus {
+  border-color: black;
+}
+
+/*
+** inline
+*/
+form div label.inline {
+	display: inline;
+}
+
+form div.inline label {
+	width: 130px;
+	margin-right: 10px;
+	float: left;
+}
+
+form div.inline label.error {
+	display: block;
+	float: none;
+	margin-left: 140px;
+	width: 250px;
+}
+
+form div.inline input.text,
+form div.inline select {
+	width: 255px;
+	float: left;
+}
+
+form div.inline input.text {
+	width: 250px;
+}
+
+form div.inline select {
+	width: 255px;
+}
+
+/*
+** textarea
+*/
+form textarea.medium {
+	width: 380px;
+}
+
+form textarea.large {
+	width: 450px;
+}
+
+/*
+** date
+*/
+form input.day,
+form input.month {
+	width: 20px;
+}
+
+form input.year {
+	width: 50px;
+}
+
+form select.year {
+	width: 125px;
+}
+
+/*
+** update exhibitor
+*/
+#update_exhibitor input.text {
+	color: #cc0000;
+}
+

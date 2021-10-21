@@ -1,0 +1,13 @@
+<?php
+
+if(isset($error_message)){
+	echo '<div>'.$error_message.'</div>';
+}
+
+if($connected_user_id) {
+	include 'templates/login_logged.html';
+}
+else {
+	include 'templates/login_mini.html';
+}
+?>

@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr"> 
+<head> 
+ 
+    <title>FIAC -Demandes d'accréditations</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+    <meta name="keywords" content="fiac, paris, foire internationale d’art contemporain, art moderne, art contemporain, grand palais, cour carree, louvre, vernissage, prix Marcel Duchamp, YCI, galerie, collectionneur, peinture, photographie, sculpture, installation, performance, salon, octobre, show, modern, contemporary, gallery, show, exhibition" /> 
+    
+    
+    	<meta name ="description" content="Au cœur de Paris, 21 - 24 octobre 2010. Grand Palais, Cour Carrée du Louvre, Tuileries. Art moderne, art contemporain, design, performances" /> 
+    
+
+	<link rel="stylesheet" type="text/css" media="screen" href="templates/css/common.css" /> 
+	<link rel="stylesheet" type="text/css" media="screen" href="templates/css/styles.css" /> 
+	<link rel="stylesheet" type="text/css" media="screen" href="templates/css/styles-button.css" /> 
+	<link rel="stylesheet" type="text/css" media="screen" href="templates/css/styles-form.css" /> 
+	<link rel="stylesheet" type="text/css" media="screen" href="templates/css/styles-admission.css" /> 
+	<link rel="stylesheet" type="text/css" media="screen" href="templates/css/styles-shop.css" /> 
+	<link rel="stylesheet" type="text/css" media="print" href="templates/css/print.css" /> 
+
+</head> 
+<body> 
+ 
+<div id="container"> 
+ 
+    <h1>FIAC - Foire Internationale d'Art Contemporain</h1> 
+ 
+    <div id="header" class="clearfix"> 
+ 
+        <a href="/"> 
+			<img src="templates/images/logo.jpg" alt="Fiac" id="logo" /> 
+		</a> 
+ 
+        <ul id="languages"> 
+            
+            <li><a href="#">english</a></li> 
+        </ul> 
+ 
+		<div id="special_access"> 
+        	
+            <h3>Accès Réservé :</h3> 
+            <ul> 
+                <li><a href="#">Exposants</a></li> 
+                <li><a href="login.php">VIP</a></li> 
+				<li><a href="#">Institutions</a></li> 
+                <li><a href="#">Presse</a></li> 
+				<li><a href="#">Visiteurs</a></li> 
+            </ul> 
+            
+ 
+            
+    	</div> 
+ 
+        <ul id="menu_top" class="menu dropdown clearfix"> 
+            
+                <li> 
+					<a href="#"> 
+						Accueil
+					</a> 
+                    
+				</li> 
+            
+                <li> 
+					<a href="#"> 
+						Demande d'accréditation
+					</a> 
+                    
+				</li> 
+            
+                <li> 
+					<a href="#"> 
+						Visuels
+					</a> 
+                    
+				</li> 
+            
+                <li> 
+					<a href="#"> 
+						Dossier de presse
+					</a> 
+                    
+				</li> 
+            
+            
+        </ul> 
+ 
+		
+    </div> 
+ 
+    <div id="service" class="clearfix"> 
+ 
+<div> 
+	<div id="tools"></div> 
+  	<div id="content"> 
+    	<div class="left"> 
+        	
+        	<h2>Espace Presse</h2> 
+            
+<form id="login_press" method="post" action="subscribe.php"> 
+
+	<p>Pour obtenir une accréditation Presse, nous avons besoin d'informations personnelles et de créer un utilisateur sur le site</p>
+
+    <div class="error invisible">Merci de vérifier que vous ayez correctement saisi tous les champs</div>
+
+	<h3>Informations personnelles</h3>
+
+	<p><label>Veuillez décliner votre identité</label></p>
+	<p>Prénom : <input class="text" name="fname" type="text" value=""/> 
+	Nom : <input class="text" name="lname" type="text" value=""/></p>
+	
+	<p><label>Merci de spécifier l'organisme de presse que vous représentez</label></p>
+	<p><input class="text" name="news_agency" type="text" value=""/></p>
+
+	<h3>Identification sur le site</h3>
+
+    <p><label>Veuillez saisir l'identifiant que vous souhaiterez utiliser.</label> </p>
+    <p><input class="text" name="login" type="text" value=""/></p> 
+    <p><label>Veuillez saisir un mot de passe.</label></p>
+    <p><input class="text" name="password" type="password" value=""/></p>
+	<p>Merci de renseigner votre adresse e-mail</p>
+    <p><input class="text" name="email" type="email" value=""/></p>
+
+	<h3>Prouvez votre humanité</h3>
+	
+	<p>Afin de nous assurer que vous êtes bien un être humain et non pas un robot venu de l'espace pour annihiler toute forme d'art contemporain sur les planètes du système solaire, merci de recopier les mots que vous voyez ci-dessous</p>
+	
+	<?php
+          echo recaptcha_get_html($publickey);
+        ?>
+
+    <p><input class="ok" type="submit" value="Je m'inscris" /> </p>
+ 
+</form> 
+
+            
+            
+            <h2>Contact</h2> 
+           	<p>Pour toute question particulière, contactez notre agence de presse :</p> 
+            <p> 
+				<a href="mailto:fiac@jct-communication.com" class="email"> 
+					Jean-Claude Torrel Communication
+				</a> 
+				<br /> 
+	            28 rue de Sévigné<br />75004 Paris<br /> 
+				T +33 (0)1 42 35 12 34<br /> 
+				F +33 (0)1 42 35 56 78
+			</p> 
+        </div> 
+        <div class="right"> 
+        	
+        </div> 
+    </div> 
+</div> 
+ 
+    </div> <!-- end service --> 
+ 
+    <div id="footer" class="clearfix"> 
+ 
+        <ul id="menu_bottom" class="menu clearfix"> 
+            
+                <li><a href="#">Contact</a></li> 
+            
+                <li><a href="#">Newsletter</a></li> 
+            
+                <li><a href="#">Partenaires</a></li> 
+            
+        </ul> 
+ 
+        <ul id="credits" class="clearfix"> 
+      		<li> 
+            	<a href="#" target="_blank" > 
+                	Tous droits réservés
+                </a> 
+            </li> 
+    		<li> 
+            	<a href="#" target="_blank" > 
+                	Données Personnelles
+                </a> 
+            </li> 
+        </ul> 
+ 
+        <div id="reed"> 
+            <span>organisé par</span> 
+            <img src="templates/images/reed.jpg" width="100" height="24" alt="Reed Expositions" /> 
+        </div> 
+ 
+ 
+        <div id="sponsor"> 
+        	<img src="templates/images/GL_footer_fr.gif" width="346" height="77" /> 
+        </div> 
+ 
+    </div> 
+ 
+</div> <!-- end container --> 
+ 
+ 
+ 
+ 
+</body> 
+</html>

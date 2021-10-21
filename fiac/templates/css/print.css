@@ -1,0 +1,34 @@
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+
+div#header,
+div.popup,
+div#background,
+div#footer,
+#tooltip,
+div#service div#tools  {
+	display: none;
+}
+
+div#details_picture {
+    float: right;
+}
+
+img {
+    border: 0;
+}
+ul,li {
+	list-style-type: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+div#details ul {
+    display: none;
+}

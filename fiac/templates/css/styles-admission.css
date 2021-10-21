@@ -1,0 +1,93 @@
+
+/***************************************/
+/*  admission
+/***************************************/
+
+/* navigation */
+
+div.admission_navigation {
+	border-top: 1px dotted #ccc;
+	position: relative;
+	clear:both;
+	height: 30px;
+}
+
+div.admission_navigation a.previous,
+div.admission_navigation a.next {
+	/*position: absolute;
+	top: 10px;*/
+	display: block;
+	background-color: #000;
+	background-image: none;
+	padding: 2px 5px 2px 5px;
+	color: #fff;
+	float:left;
+	margin:10px 0 0 0;
+}
+div.admission_navigation a.previous.important,
+div.admission_navigation a.next.important {
+	background-color:#c00;
+}
+div.admission_navigation a:hover {
+	background-color: #cc0000;
+}
+
+div.admission_navigation a.previous {
+	/*left: 0;*/
+	margin-right:10px;
+}
+
+div.admission_navigation a.next {
+	/*right: 0;*/
+}
+
+/* limit Text */
+
+p.admission_limit_text {
+	font-size: 9px;
+	color: #ccc;
+}
+
+p.admission_limit_text input {
+	width: 35px;
+	font-size: 9px;
+	color: #666;
+
+}
+
+/* summary */
+
+div.admission  ul.admission_summary li {
+	padding-bottom: 10px;
+}
+
+div.admission  div.group h3 {
+	margin: 0;
+	padding: 0;
+}
+
+div.admission  div.group ul.list,
+div.admission  div.group ul.list li {
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+div.admission div.group ul.list {
+	margin-bottom: 10px;
+}
+
+/*form#outdoor_contact input.submit {
+	background-color:#000000;
+	background-image:none;
+	color:#FFFFFF;
+	display:block;
+	margin:10px 0 0;
+	border:0 none;
+	padding:2px 5px;
+	font-size:1em;
+}
+form#outdoor_contact input.submit:hover {
+	background-color:#c00;
+}*/
